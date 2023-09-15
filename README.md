@@ -1,6 +1,7 @@
 # igaponenko.github.io
 
-This is the repository of Ivan Gaponenko, student of Heriot-Watt university taking course F28WP Web Programming
+This is the repository of Ivan Gaponenko, student of Heriot-Watt university taking course F28WP Web Programming.
+<br>
 Here will be stored all projects connected with the course.
 
 ## Projects
