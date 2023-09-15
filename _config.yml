@@ -1,4 +1,4 @@
 name: web programming
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title # custom perma link for blog posts
+permalink: /blog/:year/:month/:day/:title
 
