@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Jekyll liquid tag used to inject content -->
     <title>{{ page.title }}</title>
     <!--link to main stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
   </head>
   <body>
     <nav>
@@ -14,14 +15,21 @@
       </ul>
     </nav>
     <div class="container">
-      
+      <!-- Jekyll liquid tag used to inject content -->
       {{ content }}
-      
     </div>
     <footer>
       <ul>
-        <li><a href="https://github.com/weblabtutorial">github.com/weblabtutorial</a></li>
-        <li><a href="https://weblabtutorial.github.io"> weblabtutorial.github.io </a></li>
+        <li>
+          <a href="https://github.com/weblabtutorial"
+            >github.com/weblabtutorial</a
+          >
+        </li>
+        <li>
+          <a href="https://weblabtutorial.github.io">
+            weblabtutorial.github.io
+          </a>
+        </li>
       </ul>
     </footer>
   </body>
