@@ -4,8 +4,8 @@ This is the repository of Ivan Gaponenko, student of Heriot-Watt university taki
 Here will be stored all projects connected with the course.
 
 ## Projects
-<ul>
+<ol>
   <li>Blog Post</li>
     <p>A simple blog post with navigation menu, blog, home, and about pages.</p>
-</ul>
+</ol>
 
