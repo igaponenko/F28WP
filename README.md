@@ -6,7 +6,7 @@ Here will be stored all projects connected with the course.
 
 ## Projects
 <ol>
-  <li>Blog Post</li>
+  <li><a href="https://igaponenko.github.io/Week-1/Ivan-Blog/">Blog Post</a></li>
     <p>A simple blog post with navigation menu, blog, home, and about pages.</p>
 </ol>
 
