@@ -12,4 +12,9 @@ Here will be stored all projects connected with the course.
   <li><a href="https://igaponenko.github.io/Week-1/Travel-Agency/">Travel Agency</a></li>
   <p>An example of a travel agency website.</p>
 </ol>
+<h3>Week 2</h3>
+<ol>
+  <li><a href="https://igaponenko.github.io/Week-2/Travel-Agency/">Travel Agency</a></li>
+  <p>Tasks to be comleted specified in week 1.</p>
+</ol>
 
