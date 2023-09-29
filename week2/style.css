@@ -140,30 +140,46 @@ main h3 {
 .cta-container {
     text-align: center;
     padding: 20px;
-    background-color: #f1cf80;
-    margin-top: 30px;
+    font-size: 20px;
+    background-color: #ebf4ff;
+    margin-top: 25px;
+    color: #2082f9;
+    border-style: solid;
+    border-color: #2082f9;
+    border-width: 1px;
+}
+
+.cta-container h2{
+    text-decoration: #2082f9 underline;
+}
+
+.cta-container p {
+    font-weight: regular;
+    font-size: 15px;
 
 }
 
 .cta-button {
    display: inline-block;
     padding: 10px 20px;
-    background-color: #ff6a00;
-    color: #ffffff;
+    background-color: #2082f9ca;
+    color: #f3f3f3; 
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 30px;
     font-weight: bold;
-    margin-top: 15px;
+    font-size: 17px;
+    margin-top: 20px;
     transition: background-color 0.3s;
 }
 
 .cta-button:hover {
-    background-color: #fdb202;
+    background-color: #f3f3f3;
+    color: #2082f9ca;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #333;
+    background-color: #454545;
     color: #fff;
     text-align: center;
     padding: 20px;
