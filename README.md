@@ -13,7 +13,7 @@ Here will be stored all projects connected with the course.
 <h3>Week 2</h3>
 <ol>
   <li><a href="https://igaponenko.github.io/week2">Travel Agency</a>
-  Updated version from week 1 with following tasks completed:
+  <br>Updated version from week 1 with following tasks completed:
   <ol>
     <li>Practicing new theme colors</li>
     <li>Implement a sticky header</li>
