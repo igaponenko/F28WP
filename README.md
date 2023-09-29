@@ -6,12 +6,9 @@ Here will be stored all projects connected with the course.
 
 ## Projects
 <h3>Week 1</h3>
-<ol>
   <li><a href="https://igaponenko.github.io/week1">Travel Agency</a></li>
   <p>An example of a travel agency website with basic html and css.</p>
-</ol>
 <h3>Week 2</h3>
-<ol>
   <li><a href="https://igaponenko.github.io/week2">Travel Agency</a>
   <br>Updated version from week 1 with following tasks completed:
   <ol>
@@ -22,4 +19,3 @@ Here will be stored all projects connected with the course.
     <li>Highlighting the currently active page in the navigation menu</li>
     <li>Integrated custom google fonts</li>
   </ol></li>
-</ol>
