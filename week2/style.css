@@ -47,6 +47,10 @@ header {
 
 
 /* Navigation Styles */
+nav {
+    top: 0px;
+    position: sticky;
+}
 nav ul {
     background: linear-gradient(to right,#97cce8, #f7cf55, #f7cf55, #f7cf55, #97cce8);
     color: #fff;
@@ -54,6 +58,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 20px;
+    position: sticky;
 }
 
 nav li {
@@ -71,10 +76,16 @@ nav a {
     transition: background-color 0.3s;  /* Smooth transition for hover effect */
 }
 
-nav a:hover{
+nav a:hover, a:focus {
     background-color: white;
-    color: #f7cf55; /* Switching color for hover */
+    color: #f7cf55; /* Switching color for hover and focus */
 }
+
+.active-page {
+    background-color: white;
+    color: #f7cf55; /* Switching color when active */
+}
+
 
 /* Banner Styles */
 .banner-container {
