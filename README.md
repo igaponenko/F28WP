@@ -7,7 +7,7 @@ Here will be stored all projects connected with the course.
 ## Projects
 <h3>Week 1</h3>
   <a href="https://igaponenko.github.io/week1">Travel Agency</a>
-  <p>An example of a travel agency website with basic html and css.</p>
+  <br>An example of a travel agency website with basic html and css.
 <h3>Week 2</h3>
   <a href="https://igaponenko.github.io/week2">Travel Agency</a>
   <br>Updated version from week 1 with following tasks completed:
