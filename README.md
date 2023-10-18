@@ -19,3 +19,6 @@ Here will be stored all projects connected with the course.
     <li>Highlighting the currently active page in the navigation menu</li>
     <li>Integrated custom google fonts</li>
   </ol>
+<h3>Week 3</h3>
+  <a href="https://igaponenko.github.io/week3">Travel Agency</a>
+  <br>Updated version from week 2 with added image carousel slider.
