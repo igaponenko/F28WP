@@ -1,0 +1,239 @@
+/* Importing custom Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+/* Reset Styles */
+
+body {
+    background: scroll;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, serif;
+    color: #505050;
+    background: #97cce8;
+}
+h1, h2 {
+    font-family: 'Water Brush', serif;
+}
+
+
+/* Header Styles */
+header {
+    font-family: 'Water Brush', serif;
+    font-size: 25px;
+    background: linear-gradient(to right,#97cce8, #f7cf55, #f7cf55, #f7cf55, #97cce8);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.headeraH1 {
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Navigation Styles */
+nav {
+    top: 0px;
+    position: sticky;
+}
+nav ul {
+    background: linear-gradient(to right,#97cce8, #f7cf55, #f7cf55, #f7cf55, #97cce8);
+    color: #fff;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    position: sticky;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;  /* Smooth transition for hover effect */
+}
+
+nav a:hover, a:focus {
+    background-color: white;
+    color: #f7cf55; /* Switching color for hover and focus */
+}
+
+.active-page {
+    background-color: white;
+    color: #f7cf55; /* Switching color when active */
+}
+
+
+/* Banner Styles */
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.centered-banner {
+    padding: 30px;
+    max-width: 80%;
+    height: auto;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.services {
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main h3 {
+    margin-top: 20px;
+}
+
+/* Service Columns */
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-column {
+    flex-basis: calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.service-column img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin-bottom: 10px;
+}
+
+.service-column h3 {
+    margin-bottom: 5px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 800px) {
+    .service-column {
+        flex-basis: calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 700px) {
+    .service-column {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Call to Action Styles */
+.cta-container {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #f3f3f3;
+    margin-top: 25px;
+    color: #2082f9;
+    border-style: solid;
+    border-color: #2082f9;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.cta-container h3{
+    text-decoration: #2082f9 underline;
+}
+
+.cta-container p {
+    font-weight: regular;
+    font-size: 15px;
+
+}
+
+.cta-button {
+   display: inline-block;
+    padding: 10px 20px;
+    background-color: #2082f9ca;
+    color: #f3f3f3; 
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #f3f3f3;
+    color: #2082f9ca;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #454545;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    margin: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;  /* Smooth transition for hover effect */
+}
+
+footer a:hover {
+    color: #b3b3b3;  /* Lighter color on hover */
+}
+
+footer p {
+    margin: 10px 0 0;
+}
